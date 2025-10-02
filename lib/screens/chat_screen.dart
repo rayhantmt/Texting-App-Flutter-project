@@ -120,7 +120,10 @@ class _ChatScreenState extends State<ChatScreen> {
         ),
         centerTitle: true,
         leading: IconButton(
-            onPressed: () {},
+            onPressed: () {
+
+            Navigator.of(context).pop();
+            },
             icon: Icon(
               Icons.arrow_back_sharp,
               color: Colors.white,
